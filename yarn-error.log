@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/brian/.nvm/versions/node/v11.11.0/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add -D @storybook/react-babel-core
+
+PATH: 
+  /Users/brian/.nvm/versions/node/v11.11.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@storybook%2freact-babel-core: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:129590:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130562:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1132:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "Storybook",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
